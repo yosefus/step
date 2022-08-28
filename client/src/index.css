@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/pod3heu.css");
+
+body {
+  font-family: heebo, sans-serif;
+  direction: rtl;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #FF4F00;
+}
