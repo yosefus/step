@@ -1,9 +1,14 @@
 import styles from './App.module.css';
+import { BrowserRouter } from "react-router-dom"
+import MainRoutes from './routes';
 
-function App() {
+const App = () => {
+
   return (
     <div className={styles.main}>
-      מה שאני חושב
+      <BrowserRouter>
+        <MainRoutes />
+      </BrowserRouter>
     </div>
   );
 }
